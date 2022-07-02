@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  cursive;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top right, #42eadd 0%, #cdb599 100%);
+}
+
+section h1 {
+    /* text-shadow: 2px 5px 5px #2f3542; */
+    text-shadow: 2px 5px 5px white;
+    word-spacing: 10px;
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #4e4e50;
+}
+
+.centerDiv {
+    width: 60%;
+    height: 450px;
+    box-shadow: 2px 2px 2px 5px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
+    color: white;
+}
+
+
+
+.details {
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.details label {
+    font-size: 1.4rem;
+}
+
+.details input {
+    padding: 10px;
+    background-color: #ff6b81;
+    color: white;
+    text-align: center;
+}
+.bot{
+    width: 100%;
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    
+}
+.bot a{
+    font-family: 'Luckiest Guy', cursive;
+    text-decoration: none;
+    color: #0063B2FF;
+}
+.bot a:hover{
+    color:#000000FF;
+    text-shadow: 2px 3px 3px rgb(202, 24, 24);
+}
+
+.details input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+.imgdiv {
+    margin: 20px 0;
+}
+
+button {
+    background: #3498db;
+    width: 180px;
+    padding: 4px 0;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    background-color: darken(#f1c40f, 20%);
+}
+
+
+button:hover {
+    cursor: pointer;
+}
